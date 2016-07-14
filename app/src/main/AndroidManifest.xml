@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.netcomsys.apontamentodemaodeobra">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.netcomsys.samo">
 
     <application
         android:allowBackup="true"
@@ -9,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".UI.Main"
+            android:name="br.com.netcomsys.samo.UI.Main"
             android:label="Lista de Equipes"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".UI.Login"
+            android:name="br.com.netcomsys.samo.UI.Login"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -24,18 +25,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UI.FA_List"
+            android:name="br.com.netcomsys.samo.UI.FA_List"
             android:label="Lista de Apontamento (LA)">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UI.Main"/>
+                android:value="br.com.netcomsys.samo.UI.Main"/>
         </activity>
         <activity
-            android:name=".UI.FA_Form"
+            android:name="br.com.netcomsys.samo.UI.FA_Form"
             android:label="Apontamento (Dia)">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UI.Main"/>
+                android:value="br.com.netcomsys.samo.UI.Main"/>
         </activity>
     </application>
 
