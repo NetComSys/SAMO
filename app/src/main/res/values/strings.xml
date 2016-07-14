@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Apontamento de Mao de Obra</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_matricula">Matrícula inválida.</string>
+    <string name="error_invalid_password">Senha muito curta.</string>
+    <string name="error_incorrect_password">Senha incorreta.</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">SAMO</string>
+    <string name="_8d">8D</string>
+    <string name="qtd_de_horas">Qtd. de Horas</string>
+    <string name="oficina">Oficina</string>
+    <string name="local">Local</string>
+    <string name="salvar">Salvar</string>
+    <string name="efetivar">Efetivar</string>
+    <string name="spinner_prompt">Selecione uma Obra.</string>
+
+</resources>

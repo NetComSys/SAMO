@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_account_box_black_18dp"
+            android:title="Cadastro" />
+        <item
+            android:id="@+id/nav_carga"
+            android:icon="@drawable/ic_cloud_upload_black_18dp"
+            android:title="Carregar" />
+
+        <item
+            android:id="@+id/nav_descarga"
+            android:icon="@drawable/ic_cloud_download_black_18dp"
+            android:title="Descarregar" />
+    </group>
+
+</menu>
